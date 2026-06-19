@@ -1,0 +1,28 @@
+Middleware is a function that sits between the request coming from the client and the final response sent by the server.
+
+Think of it like a security/checkpoint layer in the request flow:
+
+
+Each middleware can:
+Read the request (req)
+Modify the request or response (req, res)
+End the request-response cycle
+Or pass control to the next middleware using next()
+
+Application-level middleware
+Router-level middleware
+Error-handling middleware
+Built-in middleware
+Third-party middleware
+
+
+
+Why Middleware is Used (Interview Answer)
+
+✔ Authentication & Authorization
+✔ Logging requests
+✔ Validating input
+✔ Parsing request body
+✔ Error handling
+✔ Rate limiting
+✔ Modifying request/response

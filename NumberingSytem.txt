@@ -1,0 +1,116 @@
+Decimal is used for user-facing numbers. Binary is used internally by computers and hardware.
+ Octal is mainly used in Unix file permissions and legacy systems. Hexadecimal is used by programmers for 
+representing binary data compactly, such as memory addresses, byte values, hashes, and colors.
+
+
+Humans → Decimal
+Machines → Binary
+Linux perms → Octal
+Debugging → Hex
+-------------------------------------------------------------------------------
+🔢 What is a numbering system?
+
+A numbering system is a way to represent numbers using a set of symbols (digits) and a base (radix).
+
+In simple words:
+
+It’s the rule for writing numbers.
+
+✅ Main numbering systems you should know (for computers)
+1️⃣ Decimal (Base-10) – Human system
+
+Digits: 0–9
+Base: 10
+
+Example:
+
+65 (decimal)
+
+
+Used by:
+
+Humans
+
+Money
+
+Counting in real life
+
+2️⃣ Binary (Base-2) – Computer system
+
+Digits: 0, 1
+Base: 2
+
+Example:
+
+65 (decimal) = 01000001 (binary)
+
+
+Used by:
+
+CPU
+
+Memory (RAM)
+
+Hardware circuits (on/off)
+
+3️⃣ Octal (Base-8) – Old / rare use
+
+Digits: 0–7
+Base: 8
+
+Example:
+
+65 (decimal) = 101 (octal)
+
+
+Used by:
+
+Old Unix permissions (e.g., 755)
+
+Legacy systems
+
+4️⃣ Hexadecimal (Base-16) – Programmer-friendly
+
+Digits:
+
+0–9 and A–F
+
+
+Base: 16
+
+Example:
+
+65 (decimal) = 41 (hex)
+
+
+Used by:
+
+Memory addresses
+
+Debugging
+
+Color codes (#FF5733)
+
+Viewing bytes (Buffer, hex dumps)
+
+🧠 Why computers don’t use decimal internally?
+
+Because hardware is built from transistors (on/off):
+
+ON  = 1  
+OFF = 0
+
+
+So binary is natural for machines.
+
+🧩 Same number, different systems (this is the key idea)
+
+The value is same, representation changes:
+
+Decimal: 65
+Binary:  01000001
+Hex:     41
+Octal:   101
+
+
+These are just different ways to write the same number.
